@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<h1>Mon premier template blade</h1>
+<h1 class='title'>Mon premier template blade</h1>
 <ul>
     @foreach ($tasks as $task)
     <li>{{$task}}</li>

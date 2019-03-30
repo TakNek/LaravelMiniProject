@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h1>Formulaire de contact</h1>
+<h1 class='title'>Formulaire de contact</h1>
 @endsection
 
 

@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Project;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -29,9 +28,4 @@ class PagesController extends Controller
         return view('contact');
     }
 
-    public function project()
-    {
-        $projects = Project::all();
-        return view('project',compact('projects'));
-    }
 }

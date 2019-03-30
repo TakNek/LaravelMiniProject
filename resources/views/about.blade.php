@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h1>About Us</h1>
+<h1 class='title'>About Us</h1>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
         Molestias eius consequatur, odit, quidem hic esse minima <br>
